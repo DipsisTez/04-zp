@@ -29,4 +29,4 @@ initial_mapping.update(zip(set(letters) - set(initial_mapping.keys()), new_binar
 
 print(binary_representations)
 print(initial_mapping)
-print(sum(len(code) for code in initial_mapping.values()))
+print(f'Anwser: {sum(len(code) for code in initial_mapping.values())}')
